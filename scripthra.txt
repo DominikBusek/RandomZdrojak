@@ -1,29 +1,29 @@
-confirm("It will begin") 
-var age=prompt("Whats your age");
+confirm("Ọ ga-amalite") 
+var age=prompt("Gịnị bụ afọ gị?");
 if(age<13)
-{console.log("No responsibility")    
+{console.log("Ọ dịghị ọrụ")    
 }
 else
-{console.log("Welcome")    
+{console.log("Na")    
 }
 
-console.log("You are at a Justin Bieber concert, and you hear this lyric 'Lace my shoes off, start racing.'")
-console.log("Suddenly, Bieber stops and says, 'Who wants to race me?'")
+console.log("Ị na-a Justin Bieber egwu, na ị na-anụ a lyric Kechisịa m akpụkpọ ụkwụ anya, na-amalite racing.")
+console.log("Mberede, Bieber na-akwụsị na-ekwu, sị, 'Ònye chọrọ ọsọ m?'")
 
-var userAnswer=prompt("Do you want to race Bieber on stage?")
+var userAnswer=prompt("Ị chọrọ ọsọ Bieber na ogbo?")
 
 if(userAnswer==="yes")
-{console.log("You and Bieber start racing. It's neck and neck! You win by a shoelace!")
+{console.log("Ị na Bieber amalite racing. Ọ bụ olu na olu! Ị mmeri site a eririakpukpoukwu!")
 }
 else
-{console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'")
+{console.log("Oh dịghị! Bieber emee ka anya doo ya isi na abu abu 'm ka a ijeụkwụ, otú ahụ ka m nwere ike ọsọ na-enweghị pacing.'")
 }
 
-var feedback=prompt("Please rate our game 1-10")
+var feedback=prompt("Biko dịruru anyị egwuregwu onye iri")
 
 if(feedback>8)
-{console.log("Thank you! We should race at the next concert!")
+{console.log("Daalụ! Anyị kwesịrị ọsọ na-esote egwu!")
 }
 else 
-{console.log("I'll keep practicing coding and racing.")
+{console.log("Aga m na-eme nzuzo na racing.")
 } 
